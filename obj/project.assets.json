@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\brasl\\Desktop\\Bases\\Tarea-1-BD\\Tarea\\Tarea.csproj",
+      "projectUniqueName": "C:\\Users\\brasl\\Desktop\\Bases\\Tarea-1-BD\\Tarea.csproj",
       "projectName": "Tarea",
-      "projectPath": "C:\\Users\\brasl\\Desktop\\Bases\\Tarea-1-BD\\Tarea\\Tarea.csproj",
+      "projectPath": "C:\\Users\\brasl\\Desktop\\Bases\\Tarea-1-BD\\Tarea.csproj",
       "packagesPath": "C:\\Users\\brasl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\brasl\\Desktop\\Bases\\Tarea-1-BD\\Tarea\\obj\\",
+      "outputPath": "C:\\Users\\brasl\\Desktop\\Bases\\Tarea-1-BD\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\brasl\\AppData\\Roaming\\NuGet\\NuGet.Config"
