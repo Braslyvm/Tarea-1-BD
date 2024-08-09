@@ -1,8 +1,37 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Registrar";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<h2>@ViewData["Title"]</h2>
+
+<form method="post" action="/Home/SaveData">
+    <div class="form-group">
+        <label for="Cedula">Cédula</label>
+        <input type="number" class="form-control" id="Cedula" name="Cedula" required />
+    </div>
+    <div class="form-group">
+        <label for="Nombre">Nombre</label>
+        <input type="text" class="form-control" id="Nombre" name="Nombre" required />
+    </div>
+    <div class="form-group">
+        <label for="FechaNacimiento">Fecha de Nacimiento</label>
+        <input type="date" class="form-control" id="FechaNacimiento" name="FechaNacimiento" required />
+    </div>
+    <div class="form-group">
+        <label for="Edad">Edad</label>
+        <input type="number" class="form-control" id="Edad" name="Edad" required />
+    </div>
+    <div class="form-group">
+        <label for="Direccion">Dirección</label>
+        <input type="text" class="form-control" id="Direccion" name="Direccion" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar</button>
+</form>
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-info">
+        @TempData["Message"]
+    </div>
+}
+    

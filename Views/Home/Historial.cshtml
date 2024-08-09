@@ -1,0 +1,37 @@
+﻿@model IEnumerable<Tarea.Models.Datos> 
+@{
+    ViewData["Title"] = "Historial";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Cédula</th>
+                <th>Nombre</th>
+                <th>Fecha de Nacimiento</th>
+                <th>Edad</th>
+                <th>Dirección</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var usuario in Model)
+            {
+                <tr>
+                    <td>@usuario.Cedula</td>
+                    <td>@usuario.Nombre</td>
+                    <td>@usuario.FechaNacimiento.ToShortDateString()</td>
+                    <td>@usuario.Edad</td>
+                    <td>@usuario.Direccion</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No hay usuarios guardados.</p>
+}

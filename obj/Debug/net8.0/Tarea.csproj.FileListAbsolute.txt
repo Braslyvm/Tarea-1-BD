@@ -60,3 +60,6 @@ C:\Users\brasl\Desktop\Bases\Tarea-1-BD\obj\Debug\net8.0\refint\Tarea.dll
 C:\Users\brasl\Desktop\Bases\Tarea-1-BD\obj\Debug\net8.0\Tarea.pdb
 C:\Users\brasl\Desktop\Bases\Tarea-1-BD\obj\Debug\net8.0\Tarea.genruntimeconfig.cache
 C:\Users\brasl\Desktop\Bases\Tarea-1-BD\obj\Debug\net8.0\ref\Tarea.dll
+C:\Users\brasl\Desktop\Bases\Tarea-1-BD\obj\Debug\net8.0\Tarea.csproj.AssemblyReference.cache
+C:\Users\brasl\Desktop\Bases\Tarea-1-BD\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\brasl\Desktop\Bases\Tarea-1-BD\obj\Debug\net8.0\Tarea.csproj.Up2Date
